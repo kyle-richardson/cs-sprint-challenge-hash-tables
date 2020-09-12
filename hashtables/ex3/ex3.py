@@ -3,6 +3,11 @@ def intersection(arrays):
     YOUR CODE HERE
     """
     # Your code here
+    first_intersection = {}
+    result = []
+    for arr in arrays:
+        for x in arr:
+            if first_intersection.get(x) is not None:
 
     return result
 
