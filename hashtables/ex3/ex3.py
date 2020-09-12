@@ -8,6 +8,7 @@ def intersection(arrays):
     for arr in arrays:
         for x in arr:
             if first_intersection.get(x) is not None:
+                continue
 
     return result
 
